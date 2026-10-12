@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+
+}
+
+p {
+    color: white;
+}
+
+body { 
+    background-image: url(img/Captura\ de\ pantalla_18-9-2026_175049_www.bing.com.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    text-align: center;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+header {
+background: rgba(255, 230, 0, 0.8);
+position: fixed;
+width: 100%;
+z-index: 100;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 0;
+margin: 1rem;
+gap: 4rem;
+}
+
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: rgb(254, 251, 251);
+font-size: 18px;
+padding: 10px;
+transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+background-color: #eca023;
+border-radius: 5px;
+}
+
+.inicio {
+    gap: 3rem ;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+.somos-aunar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+}
